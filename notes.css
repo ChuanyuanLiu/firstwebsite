@@ -1,0 +1,74 @@
+/* allow unicode */
+
+@charset "UTF-8";
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+a.special {
+  text-decoration: none;
+  color: rgb(255, 0, 166);
+}
+
+a.special:hover {
+  background-color: rgb(0, 255, 148);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: rgb(177, 222, 255);
+}
+
+footer {
+  background-color: rgb(255, 251, 204);
+}
+
+h1 {
+  font-family: "Denk One", sans-serif;
+  padding: 3px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+table {
+  margin-right: 50px;
+}
+
+/* allow for multiple selectors */
+
+table, td, th {
+  border: 1px solid black;
+}
+
+.plain {
+  padding: 0px;
+  border-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Lucida Console", monospace;
+  padding: 3px;
+}
+
+/* use class plain to overide settings in p*/
+
+a, p.plain {
+  padding: 3px;
+  font-size: 14px;
+  font-family: "Courier", monospace;
+  border-left: 0px solid red;
+}
+
+/* b stands for block */
+
+div {
+  /* must specify border-style to make border visible*/
+  border-left: 3px solid rgb(0, 98, 124);
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
+  margin: auto;
+}

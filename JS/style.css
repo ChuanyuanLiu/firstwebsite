@@ -1,0 +1,39 @@
+main {
+  padding: 5%;
+  overflow: hidden;
+  background-color: rgb(250, 255, 233);
+}
+
+input, button{
+  padding: 10px;
+}
+
+button {
+  border-style: solid;
+  background-color: rgb(255, 161, 0);
+}
+
+.comments p {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.comment-input{
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.comments {
+  width: 50%;
+  float: right;
+}
+
+.comments p:nth-child(even) {
+  background: lavender;
+}
+
+.comments p:nth-child(odd) {
+  background: gainsboro;
+}

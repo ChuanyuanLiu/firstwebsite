@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- an icon -->
+  <link rel="icon" href="favicon.ico" />
+  <!-- always set character to utf-8 to allow for unicode -->
+  <meta charset="utf-8">
+  <!-- use google font -->
+  <link href="http://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet" type="text/css">
+  <!-- link to css -->
+  <link href="notes.css" rel="stylesheet" type="text/css" />
+  <!-- link to next html, helps to build navigation menus -->
+  <link href="first.html" rel="next" />
+  <title>notes</title>
+</head>
+<header class="sticky">
+  <h1> Chuan's notes for HTML </h1>
+</header>
+
+<body>
+  <h1> Links </h1>
+  <p> You can use pseudoclasses to edit the presentation of a link</p>
+  <div>
+    <a class="special" href="https://www.google.com/"> a customized link </a>
+  </div>
+  <p> Use href mail to quickly send emails </p>
+  <div>
+    <a href="mailto:test@random.com">mail to random</a>
+  </div>
+  <p> You can also href FTP links to share files</p>
+  <div>
+    <p class="plain">FTP link to be updated</p>
+  </div>
+  <p> You can open link in different windows </p>
+  <div>
+    <!-- should add / at the end of link -->
+    <!-- use rel to prevent tabnabbing -->
+    <a href="http://www.google.com/" rel="noopener noreferrer" target="_blank">
+        open in a new tab
+    </a>
+  </div>
+
+  <h1> Images </h1>
+  <p> you can also add website icon, this website uses the below favicon (note favicon must be named favicon.ico)</p>
+  <div>
+    <img src="picture/favicon.ico" alt="favicon" />
+  </div>
+
+  <h1> Tables </h1>
+
+  <p> Tables should not be used for formating, instead use css float attribute or use <a href="https://www.w3schools.com/w3css/default.asp/">w2.css</a> or <a href="https://www.w3schools.com/bootstrap/default.asp/">bootstrap</a> to create responsive websites</p>
+  <p> Remeber to collapse table to remove double line</p>
+  <div>
+    <table class="plain">
+      <tr>
+        <td class="plain">
+          <table>
+            <caption>A caption</caption>
+            <tr>
+              <td colspan="2">
+                Cell 1
+              </td>
+            </tr>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </table>
+        </td>
+        <td class="plain">
+          <table style="border-collapse: collapse;">
+            <caption>Collapsed</caption>
+            <tr>
+              <td colspan="2">
+                Cell 1
+              </td>
+            </tr>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <hr /> <br />
+
+  <p> enter my first
+    <a href="firstpage/first.html" target="_top" style="color: rgb(150, 0, 0); text-decoration:none;"> website <br/> </a>
+  </p>
+  <!-- relative url -->
+  <a href="firstpage/first.html" target="_top"> <img src="picture/door.gif" alt="enter" width="20%"/> </a>
+
+  <footer>
+    <p> You can place contacts and links in the footer </p>
+  </footer>
+
+</body>
+
+</html>
