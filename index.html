@@ -12,6 +12,9 @@
   <link href="notes.css" rel="stylesheet" type="text/css" />
   <!-- link to next html, helps to build navigation menus -->
   <link href="first.html" rel="next" />
+  <!-- link to script and script related css-->
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <link href="app/comment.css" rel="stylesheet" type="text/css">
   <title>notes</title>
 </head>
 <header class="sticky">
@@ -84,7 +87,18 @@
 
   <hr /> <br />
 
-  <p> enter my first
+  <h1> Add temperary comment </h1>
+  <p> the cursor changes when you hover over input box</p>
+  <div>
+    <script src="app/comment.js"></script>
+    <section class="comment-input">
+      <input type="text" value="a new comment"/><button>+</button>
+    </section>
+    <section class="comments">
+    </section>
+  </div>
+
+  <p style="clear:auto"> enter my first
     <a href="firstpage/first.html" target="_top" style="color: rgb(150, 0, 0); text-decoration:none;"> website <br/> </a>
   </p>
   <!-- relative url -->

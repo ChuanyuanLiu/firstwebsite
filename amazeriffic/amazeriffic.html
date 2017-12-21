@@ -3,12 +3,14 @@
 
 <head>
   <title>Amazeriffic</title>
+  <link rel="stylesheet" type="text/css" href="amazeriffic.css">
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="app.js"></script>
 </head>
 
 <body>
   <header>
     <title>Amazeriffic</title>
-    <link rel="stylesheet" type="text/css" href="amazeriffic.css">
     <nav>
       <a href="#">Sign Up!</a> |
       <a href="#">FAQ</a> |
@@ -16,6 +18,13 @@
     </nav>
   </header>
   <main>
+    <div class="container">
+      <div class="tabs">
+        <a href=""><span class="active">Newest</span></a>
+        <a href=""><span>Oldest</span></a>
+        <a href=""><span>Add</span></a>
+      </div>
+    </div>
     <h2>Amazeriffic will change your life!</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -30,14 +39,14 @@
   </main>
 
   <footer>
-    <div class="contact">
+    <div class="contact" style="float:left">
       <h5>Contact Us</h5>
       <p>Amazeriffic!</p>
       <p>555 Fiftieth Street</p>
       <p>Asheville, NC 28801</p>
     </div>
 
-    <div class="sitemap">
+    <div class="sitemap" style="float:left">
       <h5>Sitemap</h5>
       <ul>
         <li><a href="#">Home</a></li>
