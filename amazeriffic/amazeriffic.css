@@ -8,12 +8,37 @@
     padding: 5px;
 }
 
+.content {
+  background: rgb(185, 215, 255);
+  border-radius: 0 0 20px 20px;
+  padding: 5px;
+}
+
 .tabs a span.active {
     background: #eee;
 }
 
 header, main, footer {
     min-width: 855px;
+}
+
+input {
+  margin-left: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+input, button{
+  font-size: 14px;
+  padding: 10px;
+}
+
+button {
+  border-style: solid;
+  background-color: rgb(255, 161, 0);
+}
+
+.add span:hover {
+    cursor: pointer;
 }
 
 body {
