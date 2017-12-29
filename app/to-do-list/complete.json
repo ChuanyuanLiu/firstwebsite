@@ -1,0 +1,10 @@
+[
+    {
+        "description" : "Clean the toilet",
+        "tags"  : [ "shopping", "chores" ]
+    },
+    {
+        "description" : "Write a book",
+        "tags"  : [ "writing", "work" ]
+    }
+]
